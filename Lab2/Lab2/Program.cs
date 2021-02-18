@@ -7,7 +7,7 @@ namespace Lab2
         static void Main(string[] args)
         {
             MyDict<string, int> Ages = new MyDict<string, int>();
-            Ages.Add("Ihor", 19);
+            Ages.Add("Roman", 19);
             Console.WriteLine(Ages["Roman"]);
         }
     }
